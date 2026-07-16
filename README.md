@@ -26,7 +26,7 @@ Packet Sniffer
 <br><br>
 Replay Attacks (IR)
 <p align="left">
-<img src="https://github.com/rsilva-25/moonphase/blob/e062ae2728c58047bf567c4f3c22d6e48e158b57/eviltwin.gif" width="250">
+<img src="https://github.com/rsilva-25/moonphase/blob/e062ae2728c58047bf567c4f3c22d6e48e158b57/ecra_base.gif" width="250">
 </p>
 
 Bluetooth Jammer Interferência 2.4 GHz (NRF24L01)
