@@ -14,7 +14,7 @@ O objetivo é permitir explorar vulnerabilidades, reforçar segurança e aprende
 
 <br><br>
 
-## 🌑 Ofensivo (Educativo)
+## 🌑 Ofensivo
 <p align="center">
   <img src="https://github.com/rsilva-25/moonphase/blob/59c7c2114f8580666710686188cd585f690e062d/ofensivo.gif" width="250">
 </p>
