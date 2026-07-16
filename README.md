@@ -54,6 +54,7 @@ Logs de Segurança
 <p align="center">
   <img src="https://github.com/rsilva-25/moonphase/blob/59c7c2114f8580666710686188cd585f690e062d/educativo.gif" width="250">
 </p>
+
 Conceitos de redes
 
 Explicação de ataques
