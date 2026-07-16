@@ -6,52 +6,52 @@
 
 
 # 🌒 MoonPhase
-<p align="left">
-  <img src="https://github.com/rsilva-25/moonphase/blob/c0c011917746466a8aa59b88ced1dddd2975d618/splash.gif" width="250">
+<p align="center">
+  <img src="https://github.com/rsilva-25/moonphase/blob/c0c011917746466a8aa59b88ced1dddd2975d618/splash.gif" width="350">
 </p>
 MoonPhase é um dispositivo portátil de cibersegurança que combina três pilares essenciais: Ofensivo (educativo), Defensivo e Educativo.
 O objetivo é permitir explorar vulnerabilidades, reforçar segurança e aprender conceitos fundamentais de forma prática e controlada.
 
-## 🌗 Modos de Operação
+<br><br>
 
 ## 🌑 Ofensivo (Educativo)
-<p align="left">
+<p align="center">
   <img src="https://github.com/rsilva-25/moonphase/blob/59c7c2114f8580666710686188cd585f690e062d/ofensivo.gif" width="250">
 </p>
-Fake AP com portal cativo
-
+Fake AP (Phishing Wi-Fi)
+<img src="https://github.com/rsilva-25/moonphase/blob/e062ae2728c58047bf567c4f3c22d6e48e158b57/eviltwin.gif" width="250">
 Captura de handshakes Wi‑Fi
-
+<br><br>
 Packet Sniffer
-
+<br><br>
 Replay Attacks (IR)
+<p align="left">
+<img src="https://github.com/rsilva-25/moonphase/blob/e062ae2728c58047bf567c4f3c22d6e48e158b57/eviltwin.gif" width="250">
+</p>
 
-Interferência 2.4 GHz (NRF24L01)
+Bluetooth Jammer Interferência 2.4 GHz (NRF24L01)
 
-Scripts automáticos
+Ataques automáticos
 
-Aircrack‑ng
+Aircrack Tools
 
 Demonstrações com Metasploit
 
-##🛡️ Defensivo
-<p align="left">
+## 🛡️ Defensivo
+<p align="center">
   <img src="https://github.com/rsilva-25/moonphase/blob/59c7c2114f8580666710686188cd585f690e062d/defensivo.gif" width="250">
 </p>
-Varrimento de rede
-
-Monitorização de tráfego
-
-Deteção de anomalias
-
-Auditoria de segurança
-
-tasploit
+Scan Rede Local (Nmap)
+<img src="https://github.com/rsilva-25/moonphase/blob/e062ae2728c58047bf567c4f3c22d6e48e158b57/scan.gif" width="250">
+</p>
+Deteção de Intrusos/Falhas
+<img src="https://github.com/rsilva-25/moonphase/blob/e062ae2728c58047bf567c4f3c22d6e48e158b57/lupa.gif" width="250">
+Logs de Segurança
 
 ⚠️ Uso ofensivo apenas em ambientes autorizados.
 
 ## 🌕 Educativo
-<p align="left">
+<p align="center">
   <img src="https://github.com/rsilva-25/moonphase/blob/59c7c2114f8580666710686188cd585f690e062d/educativo.gif" width="250">
 </p>
 Conceitos de redes
