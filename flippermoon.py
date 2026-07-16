@@ -1279,7 +1279,6 @@ def wifi_handshake():
     # ETAPA 3: EXECUÇÃO DA CAPTURA REAL NO CANAL ESCOLHIDO
     # =====================================================================
     try:
-        # Passa o canal dinâmico selecionado por ti para o script em Bash
         proc_handshake = subprocess.Popen(["sudo", "bash", "/home/pi/flipper-moon/handshake.sh", canal_alvo], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     except:
         mostrar_msg_rapida("Erro", "Falha ao lancar .sh")
@@ -1343,7 +1342,7 @@ def wifi_handshake():
         proc_handshake.terminate()
         os.system("sudo pkill -f airodump-ng")
     except: pass
-    time.sleep(1.0) # Amortecedor para trancar a escrita do ficheiro binário
+    time.sleep(1.0) 
 
     # =====================================================================
     # ETAPA 4: ANÁLISE COMPILADA DO AIRCRACK-NG (COMANDO 3)
@@ -1682,7 +1681,7 @@ def scan_nmap():
         comando_rede = "ip route show | grep -E 'src .+' | head -n 1 | awk '{print $1}'"
         subrede = subprocess.check_output(comando_rede, shell=True, text=True).strip()
         if not subrede or "/" not in subrede:
-            subrede = "10.134.27.0/24" # Caso falhe, usa este plano B
+            subrede = "10.134.27.0/24" 
     except:
         subrede = "10.147.27.0/24"
 
@@ -1707,7 +1706,7 @@ def scan_nmap():
         draw.ellipse((20, 6, 56, 42), outline=255, fill=255)
         draw.ellipse((28, 3, 64, 39), outline=0, fill=0)
 
-        # 2. Animação da Lupa a oscilar (Investigar)
+        # 2. Investigar
         deslocamento_lupa = (tick // 4) % 6
         if deslocamento_lupa > 3:
             deslocamento_lupa = 6 - deslocamento_lupa
@@ -1824,7 +1823,7 @@ def scan_nmap():
         elif GPIO.input(buttons["SET"]) == GPIO.LOW:
             time.sleep(0.2)
             break
-        time.sleep(0.05)  # Velocidade estável para o texto horizontal deslizar suavemente
+        time.sleep(0.05) 
 
             
         time.sleep(0.05)
@@ -1912,7 +1911,7 @@ def detecao_intrusos():
         draw.arc((10, 12, 30, 26), start=180, end=360, fill=255)
         draw.ellipse((17, 18, 23, 24), outline=255, fill=0)
         
-        # O teu bicho mais pequeno e centrado
+       
         draw.ellipse((68, 16, 82, 32), outline=255, fill=0)
         draw.line([(72, 16), (68, 10)], fill=255, width=1)
         draw.line([(78, 16), (82, 10)], fill=255, width=1)
@@ -1930,7 +1929,7 @@ def detecao_intrusos():
         draw.ellipse((x_lupa, y_lupa, x_lupa + 16, y_lupa + 16), outline=255, fill=0)
         draw.line((x_lupa + 14, y_lupa + 14, x_lupa + 22, y_lupa + 22), fill=255, width=2)
         
-        draw.text((10, 49), "PROCURA DE ALVO...", fill=255)
+        draw.text((10, 49), "PROCURAR ALVO...", fill=255)
         device.display(image)
         tick += 1
         time.sleep(0.06)
