@@ -7,7 +7,7 @@
 
 # 🌒 MoonPhase
 <p align="center">
-  <img src="https://github.com/rsilva-25/moonphase/blob/c0c011917746466a8aa59b88ced1dddd2975d618/splash.gif" width="350">
+  <img src="https://github.com/rsilva-25/moonphase/blob/c0c011917746466a8aa59b88ced1dddd2975d618/splash.gif" width="150">
 </p>
 MoonPhase é um dispositivo portátil de cibersegurança que combina três pilares essenciais: Ofensivo (educativo), Defensivo e Educativo.
 O objetivo é permitir explorar vulnerabilidades, reforçar segurança e aprender conceitos fundamentais de forma prática e controlada.
