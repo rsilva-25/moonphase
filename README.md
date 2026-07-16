@@ -13,16 +13,11 @@ MoonPhase é um dispositivo portátil de cibersegurança que combina três pilar
 O objetivo é permitir explorar vulnerabilidades, reforçar segurança e aprender conceitos fundamentais de forma prática e controlada.
 
 ## 🌗 Modos de Operação
-🛡️ Defensivo
-Varrimento de rede
-
-Monitorização de tráfego
-
-Deteção de anomalias
-
-Auditoria de segurança
 
 ## 🌑 Ofensivo (Educativo)
+<p align="left">
+  <img src="https://github.com/rsilva-25/moonphase/blob/59c7c2114f8580666710686188cd585f690e062d/ofensivo.gif" width="250">
+</p>
 Fake AP com portal cativo
 
 Captura de handshakes Wi‑Fi
@@ -39,9 +34,26 @@ Aircrack‑ng
 
 Demonstrações com Metasploit
 
+🛡️ Defensivo
+<p align="left">
+  <img src="https://github.com/rsilva-25/moonphase/blob/59c7c2114f8580666710686188cd585f690e062d/defensivo.gif" width="250">
+</p>
+Varrimento de rede
+
+Monitorização de tráfego
+
+Deteção de anomalias
+
+Auditoria de segurança
+
+tasploit
+
 ⚠️ Uso ofensivo apenas em ambientes autorizados.
 
 ## 🌕 Educativo
+<p align="left">
+  <img src="https://github.com/rsilva-25/moonphase/blob/59c7c2114f8580666710686188cd585f690e062d/educativo.gif" width="250">
+</p>
 Conceitos de redes
 
 Explicação de ataques
